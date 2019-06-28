@@ -1,8 +1,6 @@
 <?php
 
-
 namespace backend\controllers;
-
 
 use Yii;
 use backend\models\News;
