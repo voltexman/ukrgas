@@ -8,6 +8,12 @@ $this->title = 'Новини';
 
 ?>
 
+<div class="row">
+    <div class="box-body">
+        <?= Html::a('Додати новину', Url::toRoute('new/add'), ['class' => 'btn btn-primary']) ?>
+    </div>
+</div>
+
 <?= GridView::widget([
     'dataProvider' => $dataProvider,
     'tableOptions' => [
